@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0%;
+}
+header{
+  height: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#icono{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: double 2px orangered;
+}
+#title{
+  font-size:1.5rem;
+}
+main{
+  height: 130px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#a{
+  height: 90px;
+  width: 90px;
+  border-radius:  50% ;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border: double 9px #ffffff;
+}
+footer{
+  height: 50px;
+  border-bottom: 1px solid black;
+}
